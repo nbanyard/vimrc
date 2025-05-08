@@ -1,0 +1,46 @@
+{
+  "codeLens.enable": true,
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/17.0.3/clangd_17.0.3/bin/clangd",
+  "coc.preferences.formatOnSave": true,
+  "languageserver": {
+    "sql": {
+      "filetypes": [
+        "xsql"
+      ],
+      "module": "/usr/local/Cellar/sql-language-server/1.5.1/libexec/lib/node_modules/sql-language-server/dist/bin/cli.js",
+      "args": [
+        "up",
+        "--method",
+        "node-ipc"
+      ],
+      "trace.server": "verbose",
+      "settings": {
+        "sqlLanguageServer": {
+          "connections": [
+            {
+              "name": "mysql",
+              "adapter": "mysql",
+              "host": "127.0.0.1",
+              "port": 3309,
+              "user": "testing",
+              "database": "shbtoolstest",
+              "projectPaths": [
+                "/Users/nick/workspace/SHB-tools"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "python.linting.pylintEnabled": true,
+  "rust-analyzer.rustfmt.extraArgs": [
+    "--config",
+    "wrap_comments=true"
+  ],
+  "suggest.noselect": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.preferences.quoteStyle": "single"
+}
