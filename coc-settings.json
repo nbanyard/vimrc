@@ -1,46 +1,64 @@
 {
-  "codeLens.enable": true,
-  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/17.0.3/clangd_17.0.3/bin/clangd",
   "coc.preferences.formatOnSave": true,
+  "codeLens.enable": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.preferences.quoteStyle": "single",
+  "go.goplsOptions": {
+    "templateExtensions": [
+      "yaml",
+      "tpl",
+      "gotpl",
+      ".gotpl"
+    ]
+  },
   "languageserver": {
     "sql": {
-      "filetypes": [
-        "xsql"
-      ],
-      "module": "/usr/local/Cellar/sql-language-server/1.5.1/libexec/lib/node_modules/sql-language-server/dist/bin/cli.js",
       "args": [
         "up",
         "--method",
         "node-ipc"
       ],
-      "trace.server": "verbose",
+      "filetypes": [
+        "xsql"
+      ],
+      "module": "/usr/local/Cellar/sql-language-server/1.5.1/libexec/lib/node_modules/sql-language-server/dist/bin/cli.js",
       "settings": {
         "sqlLanguageServer": {
           "connections": [
             {
-              "name": "mysql",
               "adapter": "mysql",
-              "host": "127.0.0.1",
-              "port": 3309,
-              "user": "testing",
               "database": "shbtoolstest",
+              "host": "127.0.0.1",
+              "name": "mysql",
+              "port": 3309,
               "projectPaths": [
                 "/Users/nick/workspace/SHB-tools"
-              ]
+              ],
+              "user": "testing"
             }
           ]
         }
-      }
+      },
+      "trace.server": "verbose"
     }
   },
+  "groovy.enable": false,
+  "java.implementationsCodeLens.enabled": true,
   "python.linting.pylintEnabled": true,
   "rust-analyzer.rustfmt.extraArgs": [
     "--config",
     "wrap_comments=true"
   ],
+  "java.jdt.ls.java.home": "/opt/homebrew/opt/java",
+  "java.referencesCodeLens.enabled": true,
+  "javascript.suggestionActions.enabled": false,
+  "markdownlint.config": {
+    "line-length": {
+      "tables": false
+    }
+  },
+  "python.formatting.autopep8Path": "/Users/nick/Library/Python/3.9/bin/autopep8",
   "suggest.noselect": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
-  "typescript.preferences.quoteStyle": "single",
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
-  "javascript.preferences.quoteStyle": "single"
+  "typescript.preferences.quoteStyle": "single"
 }
