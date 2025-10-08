@@ -24,3 +24,6 @@ colorscheme nick
 if &diff
     syntax off
 endif
+
+" Format selected block of HTML code
+noremap <leader>f :'<,'>! prettier --parser html --stdin-filepath<cr>

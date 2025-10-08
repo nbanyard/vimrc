@@ -8,3 +8,6 @@
 	path = pack/plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
 	branch = release
+[submodule "pack/plugins/start/windsurf.vim"]
+	path = pack/plugins/start/windsurf.vim
+	url = https://github.com/Exafunction/windsurf.vim.git
