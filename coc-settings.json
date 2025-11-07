@@ -1,8 +1,9 @@
 {
   "coc.preferences.formatOnSave": true,
+  "[javascript]": {
+    "coc.preferences.formatOnSave": false
+  },
   "codeLens.enable": false,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
-  "javascript.preferences.quoteStyle": "single",
   "go.goplsOptions": {
     "templateExtensions": [
       "yaml",
@@ -11,6 +12,13 @@
       ".gotpl"
     ]
   },
+  "groovy.enable": false,
+  "java.implementationsCodeLens.enabled": true,
+  "java.jdt.ls.java.home": "/opt/homebrew/opt/java",
+  "java.referencesCodeLens.enabled": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.suggestionActions.enabled": false,
   "languageserver": {
     "sql": {
       "args": [
@@ -42,21 +50,17 @@
       "trace.server": "verbose"
     }
   },
-  "groovy.enable": false,
-  "java.implementationsCodeLens.enabled": true,
+  "markdownlint.config": {
+    "line-length": {
+      "code_blocks": false,
+      "tables": false
+    }
+  },
   "python.linting.pylintEnabled": true,
   "rust-analyzer.rustfmt.extraArgs": [
     "--config",
     "wrap_comments=true"
   ],
-  "java.jdt.ls.java.home": "/opt/homebrew/opt/java",
-  "java.referencesCodeLens.enabled": true,
-  "javascript.suggestionActions.enabled": false,
-  "markdownlint.config": {
-    "line-length": {
-      "tables": false
-    }
-  },
   "suggest.noselect": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
   "typescript.preferences.quoteStyle": "single"

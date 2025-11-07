@@ -52,6 +52,7 @@ nmap <silent> ]y :CocCommand document.jumpToNextSymbol<CR>
 
 " GoTo code navigation
 nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gD <Plug>(coc-declaration)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
@@ -169,6 +170,8 @@ nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
 nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
 " Show commands
 nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
+" Show most recent locations
+nnoremap <silent><nowait> <space>l  :<C-u>CocList location<cr>
 " Find symbol of current document
 nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
 " Search workspace symbols

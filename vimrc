@@ -17,6 +17,7 @@ set foldlevel=6
 set formatoptions=tcqln2j
 set autoindent
 set scrolloff=3
+set viminfo='100,<100,s10,h
 
 colorscheme nick
 
