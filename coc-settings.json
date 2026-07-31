@@ -63,5 +63,19 @@
   ],
   "suggest.noselect": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
-  "typescript.preferences.quoteStyle": "single"
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.inlayHints.includeInlayParameterNameHints": "all",
+  "typescript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+  "typescript.inlayHints.includeInlayFunctionLikeReturnTypeHints": true,
+  "typescript.inlayHints.includeInlayVariableTypeHints": true,
+  "typescript.inlayHints.includeInlayPropertyDeclarationTypeHints": true,
+  "typescript.inlayHints.includeInlayFunctionParameterTypeHints": true,
+  "typescript.inlayHints.includeInlayEnumMemberValueHints": true,
+  "javascript.inlayHints.includeInlayParameterNameHints": "all",
+  "javascript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+  "javascript.inlayHints.includeInlayFunctionLikeReturnTypeHints": true,
+  "javascript.inlayHints.includeInlayVariableTypeHints": true,
+  "javascript.inlayHints.includeInlayPropertyDeclarationTypeHints": true,
+  "javascript.inlayHints.includeInlayFunctionParameterTypeHints": true,
+  "javascript.inlayHints.includeInlayEnumMemberValueHints": true
 }

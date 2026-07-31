@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.gotpl set filetype=gotpl
+au BufRead,BufNewFile *.gotpl set filetype=text " Need a type
